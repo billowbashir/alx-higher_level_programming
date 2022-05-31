@@ -6,4 +6,5 @@ def uppercase(str):
             strUpper+=ord(i)-32
         else:
             strUpper+=ord(i)
-        print("{:c} ".format(strUpper), end="")
+        print("{:c}".format(strUpper), end="")
+    print("")
