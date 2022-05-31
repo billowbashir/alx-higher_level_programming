@@ -7,3 +7,4 @@ def uppercase(str):
         else:
             strUpper+=ord(i)
         print("{:c}".format(strUpper), end="")
+        print("\n")
