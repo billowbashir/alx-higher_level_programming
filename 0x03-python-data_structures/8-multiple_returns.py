@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def multiple_returns(sentence):
-    a =""
+    a = ""
     tuple_a = ()
     if len(sentence) == 0:
         a = None
