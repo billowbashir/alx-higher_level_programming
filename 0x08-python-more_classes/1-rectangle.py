@@ -4,12 +4,6 @@
 
 class Rectangle:
     """ Definition of a rectangle by its width and height . """
-
-    def __init__(self, width, height):
-        """ Initialize width and height attributes. """
-        self.width = width
-        self.height = height
-
     def width(self):
         """ Get width. """
         return self.width
@@ -33,3 +27,7 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.height = value
+    def __init__(self, width=0, height=0):
+        """ Initialize width and height attributes. """
+        self.width = width
+        self.height = height
